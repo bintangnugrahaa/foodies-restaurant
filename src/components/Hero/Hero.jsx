@@ -54,9 +54,12 @@ const Hero = () => {
                 Zone
               </h1>
               <p className="text-sm ">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
+                Selamat datang di Foodie Zone, tempat di mana kelezatan bertemu
+                dengan petualangan kuliner yang tak terlupakan. Temukan beragam
+                cita rasa, dari makanan jalanan hingga sajian haute cuisine, dan
+                nikmati perjalanan kuliner yang menggugah selera!
               </p>
+
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                   Order Now
