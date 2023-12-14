@@ -4,20 +4,20 @@ import Slider from "react-slick";
 const testimonialData = [
   {
     id: 1,
-    name: "Samuel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Bintang",
+    text: "Pelayanan yang luar biasa! Makanan yang disajikan benar-benar lezat dan penuh dengan cita rasa. Pengalaman yang tak terlupakan!",
     img: "https://picsum.photos/101/101",
   },
   {
-    id: 1,
-    name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    id: 2,
+    name: "Dova",
+    text: "Sangat terkesan dengan variasi menu dan kualitas makanannya. Stafnya juga ramah dan profesional. Akan kembali lagi!",
     img: "https://picsum.photos/102/102",
   },
   {
-    id: 1,
-    name: "Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    id: 3,
+    name: "Juno",
+    text: "Tempat yang sempurna untuk menikmati hidangan lezat. Rasa dan presentasi makanannya luar biasa. Sangat direkomendasikan!",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -36,9 +36,10 @@ const Testimonial = () => {
     pauseOnHover: true,
     pauseOnFocus: true,
   };
+
   return (
     <>
-    <span id="testimonial"></span>
+      <span id="testimonial"></span>
       <div data-aos="fade-up" data-aos-duration="300" className="py-10">
         <div className="container">
           <div className="text-center mb-20 max-w-[400px] mx-auto">
@@ -47,8 +48,9 @@ const Testimonial = () => {
             </p>
             <h1 className="text-3xl font-bold">Testimonial</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+              Temukan pengalaman luar biasa dari pelanggan kami yang telah
+              menikmati layanan kami. Ulasan mereka memperkuat komitmen kami
+              untuk memberikan yang terbaik.
             </p>
           </div>
           <div
@@ -59,11 +61,8 @@ const Testimonial = () => {
             <Slider {...settings}>
               {testimonialData.map((data) => {
                 return (
-                  <div className="my-6">
-                    <div
-                      key={data.id}
-                      className="flex flex-col justify-center items-center gap-4 text-center   shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
-                    >
+                  <div className="my-6" key={data.id}>
+                    <div className="flex flex-col justify-center items-center gap-4 text-center shadow-lg p-4 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative">
                       <img
                         className="rounded-full block mx-auto"
                         src={data.img}

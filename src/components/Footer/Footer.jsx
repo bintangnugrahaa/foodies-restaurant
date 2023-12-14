@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaLocationArrow,
+  FaGithub,
   FaMobileAlt,
 } from "react-icons/fa";
 import footerLogo from "../../assets/food-logo.png";
@@ -25,22 +25,22 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>Citayam, Jawa Barat</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+ 911 </p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-              <a href="#">
+              <a href="https://instagram.com/bintang_nugrahaa/" target="_blank">
                 <FaInstagram className="text-3xl" />
               </a>
               <a href="#">
                 <FaFacebook className="text-3xl" />
               </a>
-              <a href="#">
-                <FaLinkedin className="text-3xl" />
+              <a href="https://github.com/bintangnugrahaa/" target="_blank">
+                <FaGithub className="text-3xl" />
               </a>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
                 <ul className={`flex flex-col gap-3`}>
                   <li className="cursor-pointer">Home</li>
                   <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
+                  <li className="cursor-pointer">Testimonial</li>
                   <li className="cursor-pointer">Login</li>
                 </ul>
               </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li className="cursor-pointer">Home</li>
                   <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
+                  <li className="cursor-pointer">Testimonial</li>
                   <li className="cursor-pointer">Login</li>
                 </ul>
               </div>
@@ -80,7 +80,7 @@ const Footer = () => {
                 <ul className="flex flex-col gap-3">
                   <li className="cursor-pointer">Home</li>
                   <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Services</li>
+                  <li className="cursor-pointer">Testimonial</li>
                   <li className="cursor-pointer">Login</li>
                 </ul>
               </div>
