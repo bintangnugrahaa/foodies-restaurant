@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../../assets/food-logo.png";
 import { FaCartShopping } from "react-icons/fa6";
 import DarkMode from "./DarkMode";
@@ -20,10 +20,35 @@ const Menu = [
     link: "/#about",
   },
 ];
+
 const Navbar = () => {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200">
+      <div
+        className={`${
+          isSticky ? "fixed top-0 left-0 right-0 z-50" : "relative"
+        } shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200`}
+      >
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
             <div>
