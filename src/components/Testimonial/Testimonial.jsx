@@ -11,7 +11,7 @@ const testimonialData = [
   {
     id: 2,
     name: "Dova",
-    text: "Sangat terkesan dengan variasi menu dan kualitas makanannya. Stafnya juga ramah dan profesional. Akan kembali lagi!",
+    text: "Sangat terkesan dengan variasi menu dan kualitas makanannya. Stafnya juga ramah dan profesional. Saya akan kembali lagi dan memesan lebih banyak menu!",
     img: "https://picsum.photos/102/102",
   },
   {
