@@ -3,29 +3,31 @@ import Img from "../../assets/biryani.png";
 import Img2 from "../../assets/biryani2.png";
 import Img3 from "../../assets/biryani4.png";
 import StarRatings from "react-star-ratings";
+
 const ServicesData = [
   {
     id: 1,
     img: Img2,
     name: "Biryani",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      "Nikmati kelezatan Biryani yang khas dengan rempah-rempah pilihan yang memikat lidah Anda sepanjang perjalanan rasa. Terinspirasi dari tradisi masakan khas India, hidangan ini adalah perpaduan sempurna antara nasi, daging, dan bumbu yang menggugah selera.",
   },
   {
     id: 2,
     img: Img2,
-    name: "Chiken kari",
+    name: "Chicken Kari",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Rasakan keharmonisan rempah-rempah dalam Chicken Kari yang lezat ini. Setiap suapan membawa rasa kaya dan aroma yang memikat dari masakan kari khas, menciptakan pengalaman rasa yang tak terlupakan.",
   },
   {
     id: 3,
     img: Img2,
-    name: "Cold Cofee",
+    name: "Cold Coffee",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Nikmati sensasi segar dan kenikmatan dari setiap tegukan Cold Coffee kami. Minuman ini tidak hanya memberikan kafein yang menyegarkan, tetapi juga menyajikan kelezatan rasa kopi yang memanjakan lidah Anda.",
   },
 ];
+
 const Services = () => {
   return (
     <>
@@ -38,8 +40,10 @@ const Services = () => {
             </p>
             <h1 className="text-3xl font-bold">Services</h1>
             <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
+              Temukan layanan unggulan kami yang dirancang untuk memenuhi
+              kebutuhan kuliner Anda. Dengan pengalaman yang memikat dan cita
+              rasa yang menggugah selera, kami hadir untuk memberikan pengalaman
+              makanan yang tak terlupakan.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
@@ -58,7 +62,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="p-4 text-center">
-                  <div className="w-full ">
+                  <div className="w-full">
                     {/* <StarRatings
                       rating={4}
                       starRatedColor="yellow"

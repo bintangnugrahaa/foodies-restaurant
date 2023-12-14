@@ -35,18 +35,17 @@ const Banner = () => {
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  Lorem, ipsum dolor.
+                  Temukan Kelezatan yang Tiada Tara{" "}
                 </h1>
                 <p className="text-sm text-gray-500 tracking-wide leading-5">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
+                  Temukan kelezatan tiada tara dalam setiap sajian kami yang
+                  khas dan beragam. Dari cita rasa tradisional hingga inovasi
+                  kuliner terkini, kami hadir untuk memanjakan lidah Anda.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae ab sed, exercitationem minima aliquid eligendi
-                  distinctio? Fugit repudiandae numquam hic quo recusandae.
-                  Excepturi totam ad nam velit quasi quidem aspernatur.
+                  Bergabunglah dalam perjalanan rasa kami dan nikmati setiap
+                  gigitan dengan kepuasan yang memikat. Kami berkomitmen untuk
+                  memberikan pengalaman makanan yang tak terlupakan untuk Anda.
                 </p>
                 <div className="flex gap-6">
                   <div>
