@@ -36,7 +36,10 @@ const Footer = () => {
               <a href="https://instagram.com/bintang_nugrahaa/" target="_blank">
                 <FaInstagram className="text-3xl" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.facebook.com/muhammad.bintangnuhgraha?mibextid=rS40aB7S9Ucbxw6v"
+                target="_blank"
+              >
                 <FaFacebook className="text-3xl" />
               </a>
               <a href="https://github.com/bintangnugrahaa/" target="_blank">
